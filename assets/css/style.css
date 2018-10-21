@@ -1,0 +1,49 @@
+/**  External CSS Stylesheet for Guess Word Game **/
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body   {
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 22px;
+    line-height: 150%;
+    color: #333;
+    background: #efeee7;
+  }
+
+  header {
+    background: rgb(223, 127, 127);
+    font-size: 40px;
+    text-align: center;
+    height: 50px;
+    padding: 7px;
+  }
+  
+  
+  .container {
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  #current-word-section {
+    color: coral;
+    border-color: whitesmoke;
+    border-width: 5p, 5px, 0px, 5px;
+  }
+    
+  #showWins,
+  #showLosses,
+  #guesses-remaining,
+  #guessed-letters {
+    background-color: lightblue;
+  }
+  
+  #current-word {
+    background-color: lightgoldenrodyellow;
+  }
+  
